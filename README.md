@@ -1,5 +1,5 @@
 
-# Food Villa
+# Docs.
 
 Docs. is a web application showcasing the use of drag function implemented using framer motion. 
 ## Tech Stack 
