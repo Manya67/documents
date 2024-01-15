@@ -1,28 +1,9 @@
 import React, { useRef } from "react";
 import Card from "./Card";
+import { data } from "../constants";
 
 const ForeGround = () => {
   const ref = useRef(null);
-  const data = [
-    {
-      desc: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia facere voluptates magni a ea ducimus commodi iure dignissimos",
-      fileSize: ".8mb",
-      downloading: false,
-      tag: { tagOpen: false },
-    },
-    {
-      desc: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia facere voluptates magni a ea ducimus commodi iure dignissimos",
-      fileSize: ".8mb",
-      downloading: true,
-      tag: { tagOpen: true, progress: false },
-    },
-    {
-      desc: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia facere voluptates magni a ea ducimus commodi iure dignissimos",
-      fileSize: ".8mb",
-      downloading: false,
-      tag: { tagOpen: true, progress: true, percentage: "60%" },
-    },
-  ];
   return (
     <div
       ref={ref}

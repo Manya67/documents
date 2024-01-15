@@ -7,8 +7,8 @@ import ForeGround from "./components/ForeGround";
 const App = () => {
   return (
     <div className="h-screen w-full relative bg-zinc-900">
-      <BackGround />
       <ForeGround />
+      <BackGround />
     </div>
   );
 };
